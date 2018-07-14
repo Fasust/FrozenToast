@@ -258,16 +258,10 @@ public class ChefBot extends Npc {
 	}
 	@Override
 	protected void initDialoge(){
-		dialoge.giveDialoge(0, "Hey there Monjoe Federfieh\n"
-				+ "I'em Chefbot 201-b\n"
-				+ "or \"Cehfbot\" for short.\n"
-				+ "I'em equiped to forfill all of your Dieray needs.\n\n\n"
-				+ "\n\nScan In Process\n\n\n\n\n"
-				+ "the results of my Scan show that you are in need of \"Fish\".\n"
-				+ "but I'em afraid that is not on todays menu.\n"
-				+ "so I will serve you the next best Thing: \"Toast\"\n\n"
-				+ "...don't aktually eat it thogh, my scans show it mide be poiseness for youre specias");
-		dialoge.giveDialoge(1, "Monjoe Federfieh is Hungry,\n"
+		dialoge.giveDialoge(0, "Hey there Monjoe Federvieh\n"
+				+ "I'em Chef-bot\n"
+				+ "Now Serving Dinner!");
+		dialoge.giveDialoge(1, "Monjoe Federvieh is Hungry,\n"
 				+ "here we go!");
 	}
 	//Cutsean 

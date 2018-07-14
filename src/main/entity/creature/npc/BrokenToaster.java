@@ -189,17 +189,11 @@ public class BrokenToaster extends Npc{
 	protected void initDialoge(){
 		dialoge.giveDialoge(0, "Oh!\n"
 				+ "Hello my dear Friend.\n"
-				+ "I did not expect to see another soule Around here."
-				+ "Would you be so kind and carry me over to that Bathtub over there?\n"
-				+ "Ever since I've been cursed I lost the ability to move on my own.\n"
-				+ "The last chap I asked brought me up to here but he did not go throug with his Promise.\n\n\n"
-				+ "would you be so kinde and Finish This?");
-		dialoge.giveDialoge(1, "Common boy, please help me out.\n"
-				+ "Lets not drag this out any longer."
-				+ "I can not wait any more."
-				+ "I've waited too long already!");
-		dialoge.giveDialoge(2, "I have no Use !");
-		dialoge.giveDialoge(3, "Kill me, please");
+				+ "I did not expect to see another sole around here."
+				+ "Would you be so kind and carry me over to that Bathtub over there?\n");
+		dialoge.giveDialoge(1, "Common boy, please help me out.\n");
+		dialoge.giveDialoge(2, "Common!");
+		dialoge.giveDialoge(3, "Let us go");
 	}
 
 	//Cutsean

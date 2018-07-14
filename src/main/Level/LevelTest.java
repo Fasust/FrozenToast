@@ -103,7 +103,7 @@ public class LevelTest extends Level {
 		
 		if(!firstSpawnSet){
 			world.getEnti().getPl().setSpawn();
-			sp0.setPopUpText("Respawn Point wurde Gesetzt");
+			sp0.setPopUpText("Respawn Point was set");
 			
 			GameState.cutsean.showKeyPrompts(16,8,true);
 		
@@ -167,7 +167,7 @@ public class LevelTest extends Level {
 				hand.getCam().screenShake(370, 25, 1, 1);
 			
 			}else{
-				GameState.cutsean.activatePlayerOptainObject(Assets.gui_mini,"\"One Donut to ruel them all\"\n\ndruecke die Leertatse\num den Donut zu verwenden.");
+				GameState.cutsean.activatePlayerOptainObject(Assets.gui_mini,"\"New Power!!\"\n\nPress SPACE to activate it.");
 				cs0.setChestOpen(true);
 				hand.getCam().setScreenShakeFinsihed(false);
 				Event.GUI_OPTAINED = true;
